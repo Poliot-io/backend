@@ -1,0 +1,36 @@
+{
+  "name": "poliot.io-backend",
+  "version": "1.0.0",
+	"author": "rebase",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+		"@feathersjs/authentication": "^2.1.16",
+    "@feathersjs/authentication-jwt": "^2.0.10",
+    "@feathersjs/authentication-local": "^1.2.9",
+    "@feathersjs/configuration": "^2.0.6",
+    "@feathersjs/express": "^4.5.15",
+    "@feathersjs/feathers": "^4.5.15",
+    "@feathersjs/socketio": "^4.5.15",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "content-type": "^1.0.4",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-signature": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "feathers-mongoose": "^8.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0",
+		"winston": "^3.2.1"
+  },
+  "scripts": {
+    "start": "node --watch src/"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
